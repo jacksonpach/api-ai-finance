@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import uvicorn
-from services.analytics_service import AnalyticsServices
+from app.services.analytics_service import AnalyticsServices
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()

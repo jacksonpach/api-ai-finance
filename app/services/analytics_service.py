@@ -3,8 +3,8 @@ from yahoo_fin import stock_info as si
 from finvizfinance.quote import finvizfinance
 from datetime import datetime, timedelta
 import yfinance as yf
-import config as config
-from entities.analytic_entity import StocksAnalytics
+from app import config as config
+from app.entities.analytic_entity import StocksAnalytics
 
 
 def fields_validate(current_price, market_cap, relative_volume, volatility_week):

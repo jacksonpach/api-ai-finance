@@ -1,5 +1,4 @@
-from services.analytics_service import AnalyticsServices
-import json
+from app.services.analytics_service import AnalyticsServices
 
 
 class AnalyticsController:
