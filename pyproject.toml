@@ -12,9 +12,9 @@ yahoo_fin = "^0.8.9.1"
 finvizfinance = "^0.14.7"
 yfinance = "^0.2.33"
 fastapi = "^0.105.0"
-uvicorn = "^0.25.0"
+uvicorn = "^0.23.2"
 requests = "^2.31.0"
 
 [build-system]
-requires = ["poetry-core>=1.8.1"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

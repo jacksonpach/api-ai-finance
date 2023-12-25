@@ -6,7 +6,7 @@ class AnalyticsController:
         self.analytics = AnalyticsServices()
 
     def get_analytics(self):
-        symbol_list = await self.analytics.get_symbols_us()
+        symbol_list = self.analytics.get_symbols_us()
         for symbol in symbol_list:
             self.analytics.get_stock_analytic_data(symbol)
 
